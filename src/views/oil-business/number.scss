@@ -1,0 +1,44 @@
+    .app-main .number .el-form .top .el-form-item{
+        width: 400px;
+    }
+    .app-main .number .items{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+    .app-main .number .items .el-form-item{
+        margin-bottom: 0;
+    }
+    .app-main .number .el-form .items .el-button{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .number .dbriqi{
+        display: flex;
+        padding: 20px 60px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #606266;
+        font-weight: bold;
+    }
+    .app-main .number .dbriqi .qiri{
+        margin-right: 20px; 
+        margin-left: 7px;
+    }
+    .app-main .number .dbriqi .qiris{
+        margin-right: 20px; 
+    }
+    .app-main .number .dbriqi .qiris:hover{
+        color: #307AFF;
+        cursor: pointer;
+    }
+    .app-main .number .el-date-editor .el-range-separator{
+        padding: 0;
+    }
+    .app-main .number .el-table .small-padding .cell{
+        text-align: center;
+    }
+    .app-main .number .el-table .fixed-width .el-button--mini{
+        margin: 0 auto;
+    }

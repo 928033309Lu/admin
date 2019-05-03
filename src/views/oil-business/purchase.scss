@@ -1,0 +1,239 @@
+    ul,li{
+       list-style: none; 
+    }
+    .app-main .oli-purchase .el-form .top{
+        border-bottom: 1px solid #E4E4E4;
+    }
+    .app-main .oli-purchase .el-form .top .el-form-item{
+        margin-bottom: 0;
+    }
+    .app-main .oli-purchase .el-form .down{
+        padding-bottom: 0;
+        border-top: 20px solid #F6F7FB;
+        border-bottom: none;
+    }
+    .app-main .oli-purchase .down .el-form-item__label{
+        padding: 15px 0;
+    }
+    .app-main .oli-purchase .el-form .down .el-form-item::before{
+        top: 25px;
+    }
+//  #f5f9fc
+    .app-main .oli-purchase .el-form .top .el-form-item{
+        width: 400px;
+        margin-bottom: 0;
+    }
+    .app-main .oli-purchase .items{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0 20px;
+
+    }
+    .app-main .oli-purchase .liud{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .app-main .oli-purchase .liud .left{
+        flex-grow: 1;
+        padding: 0 40px;
+        
+    }
+    .app-main .oli-purchase .liud .left ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+    .app-main .oli-purchase .liud .left li{
+        width: 152px;
+        height: 300px;
+        padding-top: 70px;
+    }
+    .app-main .oli-purchase .liud .left li .yuan{
+        width: 152px;
+        height: 152px;
+        border: 1px solid #E1E1E1;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+    .app-main .oli-purchase .liud .left li .red .neiyuan{
+        background-color: #fb6f6f !important;
+    }
+    .app-main .oli-purchase .liud .left li .red .neiyuan2{
+        background-color: #fff7f8 !important;
+    }
+    .app-main .oli-purchase .liud .left li .red .kucun{
+        color: #ff8586 !important;
+    }
+    .app-main .oli-purchase .liud .left li .yuan .neiyuan{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        background-color: #729af9;
+        z-index: 9;
+    }
+    .app-main .oli-purchase .liud .left li .yuan .neiyuan2{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+//      top: -50%;
+        z-index: 10;
+        background-color: #eff3ff;
+    }
+    .app-main .oli-purchase .liud .left li .yuan .kucun{
+        width: 100%;
+        font-size: 13px;
+        color: #004B97;
+        position: absolute;
+        top: 25%;
+        z-index: 99;
+        text-align: center;
+    }
+    .app-main .oli-purchase .liud .left li p{
+        line-height: 40px;
+        text-align: center;
+        width: 100%;
+        font-size: 13px;
+        font-weight: normal;
+        color: #333333;
+        margin: 0;
+    }
+    .app-main .oli-purchase .liud .right{
+        width: 700px;
+        height: 300px;
+        display: flex;
+        flex-flow: column;
+    }
+    .app-main .oli-purchase .liud .right .qy92{
+        color: #ff9800;
+    }
+    .app-main .oli-purchase .liud .right .qy95{
+        color: #e51c23;
+    }
+    .app-main .oli-purchase .liud .right .cy0{
+        color: #259b24;
+    }
+
+    .app-main .oli-purchase .liud .right .el-form-item .el-form-item__content{
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .app-main .oli-purchase .items .el-form-item{
+        margin-bottom: 20px;
+        margin-right: 20px;
+        
+    }
+    .app-main .oli-purchase .el-form .items .el-button{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .oli-purchase .dbriqi{
+        display: flex;
+        padding: 20px 60px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #606266;
+        font-weight: bold;
+    }
+    .app-main .oli-purchase .dbriqi .diao_btn{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .oli-purchase .dbriqi .qiri{
+        margin-right: 20px; 
+    }
+    .app-main .oli-purchase .dbriqi .qiris{
+        margin-right: 20px; 
+    }
+    .app-main .oli-purchase .dbriqi .qiris:hover{
+        color: #307AFF;
+        cursor: pointer;
+    }
+    .app-main .oli-purchase .el-date-editor .el-range-separator{
+        padding: 0;
+    }
+    .app-main .oli-purchase .el-table .small-padding .cell{
+        text-align: center;
+    }
+  
+
+    .app-main .oli-purchase .el-table__body tr:nth-of-type(even){
+        background-color:#f6f7fb;
+    }
+    .app-main .oli-purchase .el-table__body tr:nth-of-type(odd){
+        background-color:#fff;
+    }
+
+//  申请弹框
+    .app-main .oli-purchase .ypcg_tk .tishi{
+        border: 1px solid #E4E4E4;
+        margin-top: 2px;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-table{
+        border: 1px solid #E4E4E4;
+    }
+    .app-main .oli-purchase .ypcg_tk .upper .left{
+        width: 50%;
+    }
+    .app-main .oli-purchase .ypcg_tk .upper .right{
+        width: 50%;
+        padding-left: 20px;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-dialog{
+        width: 70%;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-dialog .el-input-group{
+        width: 100%;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-dialog .el-dialog__body{
+        padding: 30px 8%;
+        padding-bottom: 0;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-dialog .el-dialog__footer{
+        text-align: center;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-dialog .el-dialog__footer .el-button+.el-button{
+        margin-left: 60px;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-dialog .beizhu{
+//      width: 60%;
+    }
+    .app-main .oli-purchase .ypcg_tk .el-range-editor--medium.el-input__inner{
+        width: 100%;
+    }
+    
+
+    .app-main .oli-purchase .pagination-container .el-pagination{
+        text-align: center;
+    }
+       
+
+
+
+    .app-main .oli-purchase .ypcg_xinxi .upper .el-form-item{
+        width: 50%;
+    }
+    .app-main .oli-purchase .ypcg_xinxi .upper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .app-main .oli-purchase .ypcg_xinxi .el-dialog .el-dialog__footer{
+        text-align: center;
+    }
+
+    ._authorize{
+        font-size: 18px;
+        font-weight: 800;
+        margin: 12px;
+        color: #606266;
+    }

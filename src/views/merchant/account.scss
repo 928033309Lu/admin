@@ -1,0 +1,132 @@
+    .account .el-dialog{
+        width: 70%;
+    }
+    .account .upload-demo{
+        width: 70%;
+    }
+    .account .el-upload{
+        width: 100%;
+    }
+    .account .el-upload-dragger{
+        width: 100%;
+    }
+    .account .el-dialog__headerbtn .el-dialog__close{
+        color: #fff;
+        font-size: 20px;
+    }
+    .account .el-dialog__body .el-input__inner{
+        background-color: #f5f9fc;
+    }
+    .account .small-padding .cell {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .app-main .account  .seachs{
+        padding: 0px 0 20px 40px;
+    }
+    .account .el-dialog__header{
+        text-align: center;
+        background-color: #307aff;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 0;
+        padding: 20px;
+    }
+    .account .el-dialog__header .el-dialog__title{
+        color: #fff;
+    }
+    .account .el-dialog .el-form{
+        width: 100%;
+    }
+    .account .el-dialog .el-form .up{
+        width: 100%;
+        display: flex;
+    }
+    .account .el-form-item__label{
+        padding-right: 25px;
+    }
+    .account .el-dialog .el-form .up .el-input{
+        width: 70%;
+    }
+    .account .el-dialog .el-form .left{
+        width: 50%;
+    }
+    .account .el-dialog .el-form .right{
+        width: 50%;
+    }
+    
+    .account .dialog-footer{
+        text-align: center;
+    }
+    .account .dialog-footer .el-button{
+        padding: 15px 40px;
+    }
+    .account .el-dialog .el-button+.el-button{
+        margin-left: 100px;
+    }
+    
+    .account .el-dialog__body{
+        padding: 30px 30px;
+    }
+    
+    .account .el-icon-upload:before{
+        font-size: 40px;
+    }
+    .account .el-upload-dragger .el-upload__text{
+        font-size: 13px;
+    }
+    
+    .account .el-table .el-button+.el-button{
+        margin-left: 0;
+    }
+    .account .el-icon-plus{
+        cursor:pointer;
+    }
+    .account .el-input{
+      width: 360px;
+    }
+    .account .dialog-footer{
+      text-align: center;
+      padding-bottom: 20px;
+      margin-top: 100px;
+    }
+    .account .el-button+.el-button{
+      margin-left: 200px;
+    }
+    .account .up{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-right: 20px;
+    }
+    .account .avatar-uploader{
+        position: relative;
+    }
+    .account .avatar-uploader .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .account .avatar-uploader .el-upload:hover {
+        border-color: #409EFF;
+    }
+    .account.avatar-uploader-icon {
+        font-size: 25px;
+        color: #8c939d;
+        width: 360px;
+        height: auto;
+        line-height: 180px;
+        text-align: center;
+    }
+    .account .avatar {
+        width: 360px;
+        height: 180px;
+        display: block;
+    }
+    .app-main .app-container .el-form .top {
+        height: 60px;
+    }
+  

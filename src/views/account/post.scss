@@ -1,0 +1,71 @@
+.app-main .account_post .el-form .top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.app-main .account_post .el-form .top .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .account_post .items .yggl .el-form-item__label{
+    width: 53px !important;
+}
+.app-main .account_post .items{
+    padding: 0 40px 20px;   
+}
+.app-main .account_post .items .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .account_post .el-button--medium{
+    padding: 8px 18px;
+}
+.app-main .account_post .el-dialog__header{
+    padding: 20px 20px 20px;
+}
+.app-main .account_post .el-dialog__title{
+    padding-left: 10px;
+    border-left: 2px solid #307aff;
+}
+.app-main .account_post .gwgl_tab .el-form{
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+}
+.app-main .account_post .gwgl_tab .el-dialog{
+    width: 60%;
+}
+.app-main .account_post .gwgl_tab .el-dialog .el-dialog__body{
+    padding: 30px 40px;
+}
+.app-main .account_post .gwgl_tab .el-dialog .left{
+    width: 50%;
+}
+.app-main .account_post .gwgl_tab .el-dialog .right{
+    width: 50%;
+    padding: 0 5%;
+    
+}
+.app-main .account_post .gwgl_tab .el-dialog .right .shu{
+    height: 200px;
+    overflow-y: scroll;
+    width: 260px;
+    min-width: 200px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #e6e9ee;
+    box-sizing: content-box;
+}
+.app-main .account_post .gwgl_tab .el-dialog .right .shu::-webkit-scrollbar {
+    display: none;
+}
+.app-main .account_post .gwgl_tab .el-dialog .el-dialog__footer{
+    text-align: center;
+}
+.app-main .account_post .gwgl_tab .el-dialog .el-dialog__footer .el-button+.el-button{
+    margin-left: 100px;
+}
+.app-main .account_post .gwgl_tab .el-dialog__body .el-form-item__label:before{
+    display: none;
+}
+.dialog-footer{
+    text-align: center;
+}

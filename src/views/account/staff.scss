@@ -1,0 +1,59 @@
+.app-main .account_staff .el-form .top .el-form-item{
+    width: 400px;
+}
+.app-main .account_staff .items{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.app-main .account_staff .items .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .account_staff .el-form .items .el-button{
+    float: right;
+    margin-left: auto;
+}
+
+.app-main .account_staff .ygtj_tab .el-dialog__body .left{
+    width: 50%;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body .right{
+    width: 50%;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body .el-form{
+    display: flex;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body{
+    padding: 30px 40px;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body .el-form-item__label{
+    text-align: justify;    
+    height: 36px;
+    overflow: hidden;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body .el-form-item__content .el-input{
+    width: 80%;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body .el-form-item__content .el-select{
+    width: 80%;
+}
+.app-main .account_staff .ygtj_tab .el-dialog__body .el-form-item__label:after {
+    display: inline-block;
+    width: 100%;
+    content: '';
+}
+
+.app-main .account_staff .ygtj_tab .el-dialog__body .el-form-item__label:before{
+    display: none;
+}
+
+.app-main .account_staff .ygtj_tab .dialog-footer{
+    text-align: center;
+}
+.app-main .account_staff .ygtj_tab .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}
+.in{
+    text-align: center;
+}

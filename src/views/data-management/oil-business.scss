@@ -1,0 +1,301 @@
+    .app-main .oil-business .el-form .top .el-form-item{
+        width: 400px;
+    }
+    .app-main .oil-business .items{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        
+        flex-wrap: wrap;
+    }
+    .app-main .oil-business .items .el-form-item{
+        margin-bottom: 20px;
+    }
+    .app-main .oil-business .el-form .items .el-button{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .oil-business .dbriqi{
+        display: flex;
+        padding: 20px 60px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #606266;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .app-main .oil-business .dbriqi .qiri{
+        margin-right: 12px; 
+    }
+    .app-main .oil-business .dbriqi .qiris{
+        margin-right: 12px; 
+    }
+    .app-main .oil-business .dbriqi .qiris:hover{
+        color: #307AFF;
+        cursor: pointer;
+    }
+    .app-main .oil-business .el-date-editor .el-range-separator{
+        padding: 0;
+    }
+    .app-main .oil-business .el-table .small-padding .cell{
+        text-align: center;
+    }
+    .app-main .oil-business .el-table .fixed-width .el-button--mini{
+        margin: 0 auto;
+    }
+    //caigousq_tab弹框
+    .app-main .oil-business .caigousq_tab .el-dialog{
+        width: 70%;
+        
+    }
+    .app-main .oil-business .caigousq_tab .el-table__body tr:nth-of-type(odd){
+        background-color: #fff;
+    }
+    .app-main .oil-business .caigousq_tab .el-table__body tr:nth-of-type(even){
+        background-color: #f5f9fc;
+    }
+    .app-main .oil-business .caigousq_tab .el-dialog__footer .dialog-footer{
+        text-align: center;
+    }
+    .app-main .oil-business .caigousq_tab .el-dialog__footer .dialog-footer .el-button+.el-button{
+        margin-left: 100px;
+    }
+    
+    .app-main .oil-business .caigousq_tab .heji{
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-between;
+    }
+    .app-main .oil-business .caigousq_tab .heji button{
+        width: 60px;
+        padding: 7px 5px;
+    }
+    .app-main .oil-business .caigousq_tab .el-table{
+        border: none;
+    }
+    .app-main .oil-business .caigousq_tab .heji .el-form-item{
+        margin-bottom: 0;
+    }
+    .app-main .oil-business .caigousq_tab .heji .shul{
+        padding-top: 10px;
+        display: flex;
+        margin-right: 50px;
+    }
+    .app-main .oil-business .caigousq_tab .heji .beizhu{
+        display: flex;
+    }
+    .app-main .oil-business .caigousq_tab .heji .beizhu .el-form-item__label{
+        padding-top: 10px;
+    }
+    .app-main .oil-business .caigousq_tab .heji .el-input__inner{
+        background-color: #f5f9fc;
+    }
+    .app-main .oil-business .caigousq_tab .el-dialog{
+        width: 60%;
+    }
+    .app-main .oil-business .caigousq_tab .el-form{
+        position: relative;
+    }
+    .app-main .oil-business .caigousq_tab .el-form .jujue{
+        width: 63px;
+        height: 40px;
+        line-height: 40px;
+        color: #909399;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        top: 120px;
+        right: 1px;
+        z-index: 100;
+        background-color: #f5f9fc;
+    }
+    .app-main .oil-business .caigousq_tab .el-dialog__body .el-table__header .has-gutter .is-center{
+        background-color: #F5F9FC !important;
+    }
+    .app-main .oil-business .caigousq_tab .el-dialog__body{
+        padding: 30px;
+    }
+    
+
+    .app-main .oil-business .caigousq_tab .shanga{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .app-main .oil-business .caigousq_tab .shanga .el-form-item{
+        min-width: 33%;
+    }
+
+    .app-main .oil-business .caigoudb_tab .yuanyin{
+        line-height: 45px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    
+    .app-main .oil-business .caigousq_yp .shanga{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .app-main .oil-business .caigousq_yp .shanga .el-form-item{
+        min-width: 50%;
+    }
+    .app-main .oil-business .caigousq_yp .shanga .beizhu{
+        display: flex;
+    }
+    .app-main .oil-business .caigousq_yp .el-dialog__footer .dialog-footer{
+        text-align: center;
+    }
+    
+    .app-main .oil-business .caigouDe_yp .shanga{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .app-main .oil-business .caigouDe_yp .shanga .el-form-item{
+        min-width: 50%;
+    }
+    .app-main .oil-business .caigouDe_yp .el-dialog__footer .dialog-footer{
+        text-align: center;
+    }
+    
+
+    .app-main .oil-business .shangpintank_tab .shanga{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .app-main .oil-business .shangpintank_tab .el-dialog__body{
+        padding: 40px;
+    }
+    .app-main .oil-business .shangpintank_tab .shanga .el-form-item{
+        width: 50%;
+    }
+    .app-main .oil-business .shangpintank_tab .dialog-footer{
+       text-align: center;
+    }
+    .app-main .oil-business .shangpintank_tab .el-table{
+        border-bottom: 0;
+    }
+    .app-main .oil-business .shangpintank_tab .el-dialog__body .el-table__header .has-gutter .is-leaf{
+        background-color: #F5F9FC;
+    }
+    .app-main .oil-business .shangpintank_tab .el-table__body tr:nth-of-type(odd){
+        background-color: #fff;
+    }
+    .app-main .oil-business .shangpintank_tab .el-table__body tr:nth-of-type(even){
+        background-color: #f5f9fc;
+    }
+    
+
+
+    .app-main .oil-business .caigousq_tab .el-dialog{
+        width: 75%;
+    }
+    .app-main .oil-business .mian_ord .shang{
+        border-bottom: 1px solid #E4E4E4;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .app-main .oil-business .mian_ord .shang .el-form-item{
+        width: 50%;
+    }
+    .app-main .oil-business .mian_ord .xinxi{
+    width: 100%;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li{
+    width: 100%;
+//  flex-grow: 1;
+    margin-bottom: 30px;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #606266;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .title .xiangq{
+    width: 80px;
+    height: 30px;
+    background-color: #5b8dff;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    left: 110px;
+    cursor: pointer;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .neirong{
+    border: 1px solid #e4e8f4;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .neirong .limiande{
+    padding: 0;
+    margin: 0;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .neirong .limiande>li{
+    display: flex;
+    justify-content: flex-start;    
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #7D7D7F;
+    padding: 0 20px;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .neirong .limiande>li:nth-of-type(odd){
+    background-color: #f5f9fc;
+}
+    .app-main .oil-business .mian_ord .xinxi .dade>li .neirong .limiande>li>div{
+    width: 50%;
+    min-height: 40px;
+    line-height: 40px;
+}
+    .app-main .oil-business .buzhou .el-step__description{
+    white-space: pre;
+}
+    .app-main .oil-business .buzhou .title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #606266;
+    line-height: 60px;
+    height: 60px;
+    position: relative;
+}
+    .app-main .oil-business .mian_ord .xinxi .guan{
+    margin-bottom: 25px;
+}
+    .app-main .oil-business .mian_ord .xinxi .guan .title{
+    display: flex;
+    flex-wrap: wrap;
+}
+    .app-main .oil-business .mian_ord .xinxi .guan .title>div{
+    margin-right: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #606266;
+}
+
+    .app-main .oil-business .el-table__body tr:nth-of-type(odd){
+    background-color:#f5f9fc;
+}
+    .app-main .oil-business .el-table__body .erji{
+    background-color: #fff;
+    
+}
+    .app-main .oil-business .el-table thead tr:nth-child(2) th{
+    background-color: #fff;
+}
+    .app-main .oil-business .el-table thead.is-group th{
+    background-color: #f5f9fc;
+}

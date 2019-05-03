@@ -1,0 +1,23 @@
+.app-main .dis_oil .gwgl_tab .el-dialog{
+    width: 35%;
+}
+.app-main .dis_oil .top .el-form-item{
+    margin-bottom: 0;
+}
+.top{
+    position: relative;
+}
+.addBtn{
+    position: absolute;
+    top:5px;
+    right: 150px;
+    height: 40px;
+    z-index: 10;
+    border: none;
+    outline: none;
+    background: none;
+}
+.el-icon-plus{
+    color: blue;
+    cursor: pointer;
+}

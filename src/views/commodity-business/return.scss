@@ -1,0 +1,19 @@
+.app-main .return{
+    
+}
+.app-main .return .items{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 0 35px;
+}
+.app-main .return .tui_btn{
+    float: right;
+    margin: 20px 40px;
+}
+.app-main .return .items .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .return .cell .el-button{
+    margin: 0 auto;
+}

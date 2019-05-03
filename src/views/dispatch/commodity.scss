@@ -1,0 +1,255 @@
+.commodity .warp{
+  background-color: #F6F7FB;
+  padding: 20px;
+}
+.commodity .main{
+  min-height: calc(100vh - 180px);
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.commodity .header{
+  background-color: #fff;
+  height: 60px;
+  padding: 0 40px;
+}
+.commodity .header h3{
+  line-height: 60px;
+  margin: 0;
+  float: left;
+  width: 100px;
+}
+.commodity .header h3 span{
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    vertical-align: middle;
+    background-color: #5B8DFF;
+    margin-right: 15px;
+    margin-bottom: 2px;
+}
+.commodity .dialog-footer .el-button:nth-of-type(2){
+    margin-left: 200px;
+}
+.commodity .dialog-footer{
+    text-align: center;
+}
+
+
+.commodity .box{
+    display: flex;
+    justify-content: flex-start ;
+    margin-bottom: 10px;
+}
+.commodity .left{
+    width: 75px;
+    text-align: left;
+    line-height: 36px;
+}
+.commodity .right{
+  line-height: 36px;
+}
+.commodity .edit{
+    padding: 0 3%;
+}
+.commodity .header .btn{
+  float: right;
+  height: 60px;
+  line-height: 60px;
+}
+.commodity .jia{
+  width: 300px;
+  padding: 0 10px;
+  border: 1px solid #8c939d;
+  border-radius: 5px
+}
+.commodity .top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.commodity .top .shang span{
+  margin-right: 20px;
+}
+.commodity .maintain{
+  padding: 0 3%;
+}
+.commodity .maintain .table{
+  border: 1px solid #E4E8F4;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+.commodity .maintain .table p{
+  margin: 0;
+  line-height: 36px;
+  background-color: #F5F9FC;
+  padding: 0 14px;
+}
+.commodity .el-input--medium .el-input__inner,
+.commodity .el-textarea__inner,
+.commodity .el-input__inner,
+.commodity .el-table--striped .el-table__body tr.el-table__row--striped td ,
+.commodity .el-table th{
+  background-color: #F5F9FC;
+}
+.commodity .el-dialog__header{
+    text-align: center;
+    background-color: #5B8DFF;
+    color:#fff;
+}
+.commodity .main .el-table__header .has-gutter .is-leaf{
+    background-color: #F5F9FC;
+}
+.commodity .main .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.commodity .main .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+.commodity .el-dialog__title {
+  line-height: 24px;
+  font-size: 18px;
+  color: #fff;
+}
+.commodity .el-dialog__headerbtn .el-dialog__close{
+    color: #fff;
+}
+.commodity .avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.commodity .avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.commodity .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+.commodity .avatar {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+.commodity .header .btn button{
+  margin-left: 10px;
+}
+.el-dialog{
+  width: 40%;
+}
+.commodity .chakanT .el-dialog .el-dialog__body{
+    padding: 30px 40px;
+}
+
+/*shenqingtj_tab弹框*/
+.app-main .commodity .shenqingtj_tab .el-dialog{
+    width: 80%;
+}
+.app-main .commodity .shenqingtj_tab .el-dialog__body .el-form .sou{
+    display: flex;
+    justify-content: space-between;
+}
+.app-main .commodity .shenqingtj_tab .sou .el-form-item{
+    width: 50%;
+}
+.app-main .commodity .shenqingtj_tab .sou .you{
+    display: flex;
+    height: 36px;
+}
+.app-main .commodity .shenqingtj_tab .sou .you .el-button--medium{
+    margin-left: 20px;
+}
+.app-main .commodity .shenqingtj_tab .el-dialog__body{
+    padding: 30px;
+}
+.app-main .commodity .shenqingtj_tab .el-dialog__body .el-table{
+    border: 1px solid #e6e9ee;
+}
+
+.app-main .commodity .shenqingtj_tab .tianjiade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuan{
+    min-width: 600px;
+    border-right: 2px solid #e6e9ee;
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuanle{
+    max-width: 300px;
+    min-width: 300px;
+    min-height: auto;
+    max-height: 497px;
+    overflow-y: scroll;
+    border: 1px solid #e6e9ee;
+    border-left: 2px solid #e6e9ee;
+    
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuanle .yixuan{
+    height: 44px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    
+    border-bottom: 1px solid #ebeef5;
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuanle ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuanle ul li{
+    display: flex;
+    width: 50%;
+    height: 43.8px;
+    line-height: 43.8px;
+    padding: 0 5px;
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuanle ul li .ming{
+    width: 70%;
+    text-align: center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.app-main .commodity .shenqingtj_tab .tianjiade .xuanle ul li .cha{
+    width: 30%;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+.app-main .commodity .shenqingtj_tab .el-dialog__body .el-table__header .has-gutter .is-leaf{
+        background-color: #F5F9FC;
+    }
+.app-main .commodity .shenqingtj_tab .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .commodity .shenqingtj_tab .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+
+.app-main .commodity .shenqingtj_tab .el-dialog__footer{
+    text-align: center;
+}
+.app-main .commodity .shenqingtj_tab .el-dialog__footer .el-button+.el-button{
+    margin-left: 100px;
+}
+
+
+.app-main .commodity .xinxi_tab .el-dialog{
+    width: 40%;
+}
+.app-main .commodity .xinxi_tab .el-dialog .el-dialog__body{
+    padding: 30px 40px;
+}

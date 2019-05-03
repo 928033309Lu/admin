@@ -1,0 +1,105 @@
+.warp{
+    background-color: #F6F7FB;
+    // padding: 2%;
+}
+.main{
+    min-height: calc(100vh - 181px);
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: #fff;
+    height: 60px;
+    padding-left: 1%;
+}
+.header h3{
+    line-height: 60px;
+    margin: 0;
+}
+.header h3 span{
+	display: inline-block;
+	width: 3px;
+	height: 25px;
+	vertical-align: middle;
+	background-color: #5B8DFF;
+	margin-right: 1%;
+}
+.dialog-footer .el-button:nth-of-type(2){
+	margin-left: 200px;
+}
+.dialog-footer{
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: flex-start ;
+	margin-bottom: 10px;
+}
+.left{
+	width: 100px;
+	text-align: left;
+	line-height: 36px;
+}
+.edit{
+	padding: 1% 3%;
+}
+
+.el-input--medium .el-input__inner,
+.el-textarea__inner,
+.el-input__inner,
+.el-table--striped .el-table__body tr.el-table__row--striped td ,
+.el-table th{
+  background-color: #F5F9FC;
+}
+.el-dialog__header{
+	text-align: center;
+	background-color: #5B8DFF;
+	color:#fff;
+}
+.el-dialog__title {
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff;
+}
+.el-dialog__headerbtn .el-dialog__close{
+	color: #fff;
+}
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+.avatar {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+.cell img{
+	width: 78px;
+}
+.el-pagination{
+  text-align: center;
+  margin: 20px 0;
+}
+h3 .el-button{
+    float: right;
+    border: 0;
+    line-height: 36px;
+    font-size: 28px;
+    color: #5B8DFF;
+    background-color: #fff; 
+}

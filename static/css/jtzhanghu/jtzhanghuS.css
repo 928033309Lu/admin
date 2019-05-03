@@ -1,0 +1,66 @@
+.app-main{
+	background-color: #f6f7fb;
+	padding: 25px 40px ;
+	box-sizing: border-box;
+}
+.app-main .app-container{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 20px 0;
+}
+.app-main .app-container .el-form{
+	width: 100%;
+}
+.app-main .app-container .el-form .top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding: 0 40px;
+	padding-bottom: 20px;
+}
+.el-form-item{
+	margin: 0;
+}
+.app-main .app-container .el-form .top .el-form-item__content{
+	width: 400px;
+}
+
+.app-main .app-container .el-form .top .el-form-item{
+	width: 500px;
+}
+.app-main .app-container .el-form .top .el-form-item::before{
+	width: 3px;
+    height: 16px;
+    background-color: #2c7bfe;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.fixed-width .el-button--mini{
+	padding: 7px 5px;
+}
+.small-padding .cell{
+	display: flex;
+}
+/*.el-table__body{
+	width: 100% !important;
+}
+.el-table__body tr{
+	padding: 0 40px;
+}
+.el-table__header-wrapper .el-table__header{
+	width: 100% !important;
+}*/
+.el-table__body tr:nth-of-type(odd){
+	background-color: #f6f7fb;
+}
+.el-table__header th{
+	padding: 15px 0;
+}
+.el-input__suffix-inner{
+	font-size: 16px;
+	color: #2c79fd;
+	cursor: pointer;
+}

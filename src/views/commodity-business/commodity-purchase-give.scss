@@ -1,0 +1,100 @@
+.app-main .commodity-purchase-give .el-form .top{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e9ee;
+}
+.app-main .commodity-purchase-give .top .dayin{
+    float: right;
+    margin-left: auto;
+    height: 36px;
+    padding: 0;
+    width: 80px;
+    text-align: center;
+}
+.app-main .commodity-purchase-give .el-form .top .el-form-item::before{
+    display: none;
+}
+.app-main .commodity-purchase-give .el-form .qufen .el-form-item::before{
+    display: block;
+    top: 20px;
+}
+.app-main .commodity-purchase-give .top .el-icon-arrow-left{
+    padding-top: 6px;
+    margin-right: 8px;
+}
+.app-main .commodity-purchase-give .top .el-icon-arrow-left:before{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.app-main .commodity-purchase-give .top .el-form-item{
+    margin-bottom: 0;
+}
+
+.app-main .commodity-purchase-give .dingdan .dade{
+    padding: 0 40px;
+    border-bottom: 1px solid #e6e9ee;
+    display: flex;
+    justify-content: space-between;
+}
+.app-main .commodity-purchase-give .dingdan .dade .el-form-item{
+    margin: 10px 0;
+}
+.app-main .commodity-purchase-give .dingdan .zidan{
+    padding: 0 40px;
+}
+.app-main .commodity-purchase-give .dingdan .zidan .item{
+    padding-bottom: 20px;
+}
+.app-main .commodity-purchase-give .dingdan .zidan .item .xinxi{
+    display: flex;
+    justify-content: space-between;
+}
+.app-main .commodity-purchase-give .dingdan .zidan .item .xinxi .liuge{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.app-main .commodity-purchase-give .dingdan .zidan .item .xinxi .liuge>.el-form-item{
+    width: 33%;
+}
+.app-main .commodity-purchase-give .dingdan .zidan .el-form-item{
+    margin: 0;
+}
+
+.app-main .commodity-purchase-give .dingdan .zidan .queren{
+    height: 36px;
+    padding: 0;
+    width: 80px;
+    text-align: center;
+}
+.app-main .commodity-purchase-give .el-table__header .has-gutter .is-leaf{
+    background-color: #F5F9FC;
+}
+.app-main .commodity-purchase-give .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .commodity-purchase-give .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+
+.app-main .commodity-purchase-give .dingdan .zidan .item .el-table{
+    border: 1px solid #e6e9ee;
+    border-bottom: 0;
+}
+.app-main .commodity-purchase-give .dingdan .heji{
+    padding: 0 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F5F9FC;
+    border: 1px solid #e6e9ee;
+    border-top: 0;
+    font-size: 14px;
+}
+
+
+.app-main .commodity-purchase-give .dingdan .zidan .item .el-table .el-date-editor.el-input{
+    width: 150px;
+}

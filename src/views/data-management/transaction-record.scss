@@ -1,0 +1,142 @@
+.warp{
+  background-color: #F6F7FB;
+}
+.box .block span:nth-child(1){
+  text-align: right;
+  display:inline-block;
+  margin-right: 17px;
+  font-size: 14px;
+}
+.main{
+  min-height: calc(100vh - 191px);
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.header{
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #F6F7FB;
+}
+.header h3{
+  display: inline-block;
+  width: 500px;
+  line-height: 60px;
+  margin: 0;
+}
+.header h3 span{
+	display: inline-block;
+	width: 3px;
+	height: 25px;
+	vertical-align: middle;
+	background-color: #5B8DFF;
+	margin-right: 5px;
+}
+.top{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  margin-top: 10px;
+  padding:0 10px;
+  display: flex;
+  line-height: 36px;
+}
+.date>.el-button{
+  margin-right: 20px;
+  font-size: 14px;
+  color: black;
+  padding: 0;
+}
+.date span{
+  line-height: 36px;
+}
+.date>.el-button:focus{
+  color: #409EFF;
+}
+.xuan span{
+  font-size: 14px;
+  line-height: 36px;
+}
+.date,.xuan{
+  margin-bottom: 10px;
+}
+.xuan .el-select:nth-of-type(1){
+  margin-right: 20px;
+}
+p{
+  font-size: 14px;
+}
+.biao{
+  padding: 10px 20px;
+  text-align: left;
+}
+.ge{
+  border: 1px solid #EDEDED;
+}
+.table{
+  border: 1px solid #EDEDED;
+  border-bottom:0; 
+}
+
+.box .block span{
+  width: 80px;
+  display: inline-flex;
+}
+.box .block{
+  margin: 10px 0;
+}
+.block .el-select{
+  width: 180px;
+}
+
+.dao{
+  display: inline-block;
+}
+.dao .el-button--medium{
+  padding: 0 20px;
+}
+.edit .box .block span{
+  width: 120px;
+  display: inline-flex;
+}
+.edit .box .block span:nth-child(1){
+  justify-content: flex-start ;
+}
+.el-input--medium .el-input__inner,
+.el-textarea__inner,
+.el-input__inner,
+.el-table--striped .el-table__body tr.el-table__row--striped td ,
+.el-table th{
+  background-color: #F5F9FC;
+}
+h3 .el-button--medium.is-circle{
+  border: 0;
+}
+.el-table_1_column_1,
+.el-table_1_column_2,
+.el-table__footer .el-table_1_column_1,
+.el-table__footer .el-table_1_column_2,
+.el-table__footer .el-table_1_column_3,
+.el-table thead.is-group th{
+    background-color: #F5F9FC;
+}
+.el-table__footer-wrapper tbody td, 
+.el-table__header-wrapper tbody td{
+    background-color: #fff;
+}
+.el-pagination{
+  text-align: center;
+  margin: 20px 0;
+}
+.edit .top {
+  display: flex;
+  justify-content: space-between;
+}
+.warp .edit .top .box .block span{
+  width: auto;
+  margin-right: 0;
+  text-align: left;
+}

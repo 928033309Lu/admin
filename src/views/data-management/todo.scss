@@ -1,0 +1,213 @@
+    .app-main .todo .el-form .top .el-form-item {
+      width: 400px;
+    }
+
+    .app-main .todo .items {
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 20px;
+      padding-bottom: 20px;
+    }
+
+    .app-main .todo .items .el-form-item {
+      margin-bottom: 0;
+    }
+
+    .app-main .todo .el-form .items .el-button {
+      float: right;
+      margin-left: auto;
+    }
+
+    .app-main .todo .dbriqi {
+      display: flex;
+      padding: 20px 60px;
+      line-height: 36px;
+      font-size: 14px;
+      color: #606266;
+      font-weight: bold;
+    }
+
+    .app-main .todo .dbriqi .qiri {
+      margin-right: 20px;
+    }
+
+    .app-main .todo .dbriqi .qiris {
+      margin-right: 20px;
+    }
+
+    .app-main .todo .dbriqi .qiris:hover {
+      color: #307AFF;
+      cursor: pointer;
+    }
+
+    .app-main .todo .el-date-editor .el-range-separator {
+      padding: 0;
+    }
+
+    .app-main .todo .el-table .small-padding .cell {
+      text-align: center;
+    }
+
+    .app-main .todo .el-table .fixed-width .el-button--mini {
+      margin: 0 auto;
+    }
+
+    //caigousq_tab弹框
+    .app-main .todo .caigousq_tab .el-dialog {
+      width: 70%;
+
+    }
+
+    .app-main .todo .caigousq_tab .el-table__body tr:nth-of-type(odd) {
+      background-color: #fff;
+    }
+
+    .app-main .todo .caigousq_tab .el-table__body tr:nth-of-type(even) {
+      background-color: #f5f9fc;
+    }
+
+    .app-main .todo .caigousq_tab .el-dialog__footer .dialog-footer {
+      text-align: center;
+    }
+
+    .app-main .todo .caigousq_tab .el-dialog__footer .dialog-footer .el-button+.el-button {
+      margin-left: 100px;
+    }
+
+    .dialog-footer .el-button {
+      margin: 0 20px;
+    }
+
+    ._data-span {
+        text-align: right;
+        float: left;
+        font-size: 14px;
+        color: #606266;
+        line-height: 40px;
+        padding: 0 12px 0 0;
+        font-weight: 800;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: 30px;
+    }
+
+    .app-main .todo .caigousq_tab .heji {
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-between;
+    }
+
+    .app-main .todo .caigousq_tab .heji button {
+      width: 60px;
+      padding: 7px 5px;
+    }
+
+    .app-main .todo .caigousq_tab .el-table {
+      border: 1px solid #e4e8f4;
+    }
+
+    .app-main .todo .caigousq_tab .heji .el-form-item {
+      margin-bottom: 0;
+    }
+
+    .app-main .todo .caigousq_tab .heji .shul {
+      padding-top: 10px;
+      display: flex;
+      margin-right: 50px;
+    }
+
+    .app-main .todo .caigousq_tab .heji .beizhu {
+      display: flex;
+    }
+
+    .app-main .todo .caigousq_tab .heji .beizhu .el-form-item__label {
+      padding-top: 10px;
+    }
+
+    .app-main .todo .caigousq_tab .heji .el-input__inner {
+      background-color: #f5f9fc;
+    }
+
+    .app-main .todo .caigousq_tab .el-dialog {
+      width: 45%;
+    }
+
+    .app-main .todo .caigousq_tab .el-form {
+      position: relative;
+    }
+
+    .app-main .todo .caigousq_tab .el-form .jujue {
+      width: 63px;
+      height: 40px;
+      line-height: 40px;
+      color: #909399;
+      font-size: 14px;
+      font-weight: bold;
+      position: absolute;
+      top: 85px;
+      right: 1px;
+      z-index: 100;
+      background-color: #f5f9fc;
+    }
+
+    .app-main .todo .caigousq_tab .el-dialog__body .el-table__header .has-gutter .is-center {
+      background-color: #F5F9FC !important;
+    }
+
+    .app-main .todo .caigousq_tab .el-dialog__body {
+      padding: 30px;
+    }
+
+
+
+    .app-main .todo .caigousq_tab .shanga {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .app-main .todo .caigousq_tab .shanga .el-form-item {
+      min-width: 33%;
+    }
+
+    .app-main .todo .caigoudb_tab .yuanyin {
+      line-height: 45px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+
+    .app-main .todo .caigousq_yp .shanga {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .app-main .todo .caigousq_yp .shanga .el-form-item {
+      min-width: 50%;
+    }
+
+    .app-main .todo .caigousq_yp .shanga .beizhu {
+      display: flex;
+    }
+
+    .app-main .todo .caigousq_yp .el-dialog__footer .dialog-footer {
+      text-align: center;
+    }
+
+    .app-main .todo .caigouDe_yp .shanga {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .app-main .todo .caigouDe_yp .shanga .el-form-item {
+      min-width: 50%;
+    }
+
+    .el-form-item {
+      margin-bottom: 5px;
+    }
+
+    .app-main .todo .caigouDe_yp .el-dialog__footer .dialog-footer {
+      text-align: center;
+    }

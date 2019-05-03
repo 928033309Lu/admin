@@ -1,0 +1,106 @@
+    .app-main .oli-allocation .el-form .top .el-form-item{
+        width: 400px;
+    }
+    .app-main .oli-allocation .items{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0 20px;
+
+    }
+    .app-main .oli-allocation .items .el-form-item{
+        margin-bottom: 20px;
+        margin-right: 20px;
+        
+    }
+    .app-main .oli-allocation .el-form .items .el-button{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .oli-allocation .dbriqi{
+        display: flex;
+        padding: 20px 60px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #606266;
+        font-weight: bold;
+    }
+    .app-main .oli-allocation .dbriqi .diao_btn{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .oli-allocation .dbriqi .qiri{
+        margin-right: 20px; 
+    }
+    .app-main .oli-allocation .dbriqi .qiris{
+        margin-right: 20px; 
+    }
+    .app-main .oli-allocation .dbriqi .qiris:hover{
+        color: #307AFF;
+        cursor: pointer;
+    }
+    .app-main .oli-allocation .el-date-editor .el-range-separator{
+        padding: 0;
+    }
+    .app-main .oli-allocation .el-table .small-padding .cell{
+        text-align: center;
+    }
+    .app-main .oli-allocation .el-table .fixed-width .el-button--mini{
+        margin: 0 auto;
+    }
+    
+
+    .app-main .oli-allocation .shenqing_tab .el-dialog{
+        width: 600px;
+    }
+    .app-main .oli-allocation .shenqing_tab .el-dialog__body{
+        padding: 30px 10%;
+    }
+    
+    .app-main .oli-allocation .shenqing_tab .el-input--medium .el-input__inner{
+        background-color: #f5f9fc;
+    }
+    .app-main .oli-allocation .shenqing_tab .el-dialog__body .el-date-editor{
+        width: 100%;
+        background-color: #f5f9fc;
+    }
+    .app-main .oli-allocation .shenqing_tab .el-dialog__body .el-range-input{
+        background-color: #f5f9fc;
+    }
+    .app-main .oli-allocation .shenqing_tab .el-dialog__footer{
+        padding-top: 0;
+    }
+   
+    .app-main .oli-allocation .shenqing_tab .dialog-footer{
+        text-align: center;
+    }
+    .app-main .oli-allocation .shenqing_tab .dialog-footer .el-button+.el-button{
+        margin-left: 30px;
+    }
+    
+    
+    
+    
+    
+    .app-main .oli-allocation .daipi_tab .el-dialog{
+       width: 60%;
+    }
+    .app-main .oli-allocation .daipi_tab .el-dialog__body{
+        padding: 30px 6%;
+        position: relative;
+    }
+    .app-main .oli-allocation .daipi_tab .el-dialog__body .left{
+        width: 50%;
+    }
+    .app-main .oli-allocation .daipi_tab .el-dialog__body .right{
+        width: 50%;
+    }
+    .app-main .oli-allocation .daipi_tab .el-dialog__body .zhuangtai{
+         
+    }
+    .app-main .oli-allocation .daipi_tab .el-date-editor.el-input{
+        width: 100%;
+    }
+    .app-main .oli-allocation .daipi_tab .el-dialog__body .el-form--label-left{
+        display: flex;
+    }

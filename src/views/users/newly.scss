@@ -1,0 +1,248 @@
+.newly .el-tabs__header .el-tabs__nav-wrap{
+    padding: 0 20px;
+}
+.app-main .newly{
+    padding-bottom: 0;
+}
+.newly .biao{
+    position: relative;
+    margin-bottom: 30px;
+}
+.newly .biao .el-date-editor{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 100;
+}
+.newly .biao .el-date-editor .el-range-separator{
+    padding: 0;
+}
+
+.app-main .newly .biaoge .el-table__header-wrapper .el-table__header{
+    background-color: #F5F9FC;
+}
+.app-main .newly .biaoge .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .newly .biaoge .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+.app-main .newly .qita{
+    display: flex;
+    justify-content: space-between;
+}
+.app-main .newly .qita .left{
+    width: 40%;
+}
+.app-main .newly .qita .right{
+    width: 40%;
+}
+
+.app-main .newly .qita p{
+    line-height: 25px;
+    height: 25px;
+    margin: 0;
+}
+.app-main .newly .qita .left .neirong{
+    width: 100%;
+    height: 170px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+.app-main .newly .qita .left .neirong ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.app-main .newly .qita .left .neirong ul li{
+    width: 100%;
+    line-height: 25px;
+    margin: 10px;
+}
+.app-main .newly .chakan_tk .el-dialog{
+    width: 70%;
+}
+.app-main .newly .chakan_tk .el-dialog .el-form-item__label{
+    padding: 0;
+}
+.app-main .newly .chakan_tk .el-dialog .hezi{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.app-main .newly .chakan_tk .el-dialog .hezi .el-form-item{
+    min-width: 33%;
+}
+.app-main .newly .chakan_tk .el-dialog .el-dialog__body{
+    padding: 30px 40px;
+}
+.app-main .newly .chakan_tk .el-dialog .el-dialog__footer{
+    padding: 10px 40px 20px;
+}
+.el-form-item{
+    margin: 0;
+}
+.app-main .newly .chakan_tk .el-dialog .hezi .el-form-item--medium .el-form-item__label{
+    color: #898c95;
+}
+.app-main .newly .chakan_tk .el-dialog .hezi .el-form-item--medium .el-form-item__content{
+    color: #898c95;
+}
+
+.app-main .newly .chakan_tk .qita .right .neirong{
+    width: 100%;
+    height: 170px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+}
+
+/*标签样式*/
+
+.app-main .newly .chakan_tk .qita .right .neirong .el-tag--medium{
+    margin-right: 10px;
+}
+
+.app-main .newly .chakan_tk .dialog-footer{
+    text-align: center;
+}   
+.app-main .newly .chakan_tk .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}
+.app-main .newly  .duanxin_tk .left{
+    width: 50%;
+}
+.app-main .newly  .duanxin_tk .left .xuanzefasng{
+    display: flex;
+    padding: 20px 0;
+}
+.app-main .newly  .duanxin_tk .left .xuanzefasng p{
+    margin: 0;
+    line-height: 36px;
+    margin-left: 20px;
+}
+.app-main .newly  .duanxin_tk .left .el-textarea .el-textarea__inner{
+    background-color: #f5f9fc;
+    border: 1px solid #e6e9ee;
+    width: 85%;
+}
+.app-main .newly  .duanxin_tk .el-dialog{
+    width: 70%;
+}
+.app-main .newly  .duanxin_tk .el-dialog .el-dialog__body{
+    padding: 30px 40px;
+}
+.app-main .newly  .duanxin_tk .dingshi{
+    padding: 20px 0;
+}
+.app-main .newly  .duanxin_tk .left .dinshishijian{
+    margin-left: 10px;
+}
+.app-main .newly  .duanxin_tk .dialog-footer{
+    text-align: center;
+}
+.app-main .newly  .duanxin_tk .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}
+
+.app-main .newly  .duanxin_tk .fenzuoyou{
+    display: flex;
+    justify-content: space-between;
+}
+.app-main .newly  .duanxin_tk .right{
+    width: 50%;
+}
+.app-main .newly  .duanxin_tk .right .message1{
+  width: 170px;
+  padding: 10px;
+  height: auto;
+  background-color: #e8e7ec;
+  border-bottom-color:#e8e7ec;/*为了给after伪元素自动继承*/
+  color: #333;
+  font-size: 12px;
+  font-family: Arial;
+  line-height: 18px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+  word-break: break-all;
+  z-index: 100;
+}
+.app-main .newly  .duanxin_tk .right .message1::before {
+  content: '';
+  width: 10px; 
+  height: 10px;
+  background-color: inherit;
+  left: -5px; /*向左侧外部延伸箭头box的一半宽度*/
+  position: absolute;
+  transform: rotate(45deg); /*旋转45度*/
+  top:50%; /*箭头在数值方向上居中*/
+  margin-top: -5px;
+  z-index: -1;
+}
+.app-main .newly  .duanxin_tk .right .kuangk{
+    position: relative;
+}
+.app-main .newly  .duanxin_tk .right .kuangk .message1{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+
+
+
+
+
+
+/*筛选会员弹框*/
+
+.app-main .newly .sxhuiyuan_tk .fenzuoyou{
+    display: flex;
+    justify-content: space-between;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .left{
+    width: 40%;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .right{
+    width: 50%;
+}
+.app-main .newly .sxhuiyuan_tk .el-dialog{
+    width: 70%;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .el-form-item{
+    margin-bottom: 30px;
+}
+.app-main .newly .sxhuiyuan_tk .el-date-editor{
+    width: 100%;
+}
+.app-main .newly .sxhuiyuan_tk .el-date-editor .el-range-separator{
+    padding: 0;
+}
+.app-main .newly .sxhuiyuan_tk .el-dialog__body{
+    padding: 30px 40px;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .right .daxiaodeng .el-form-item__content{
+    display: flex;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .right .daxiaodeng .el-form-item__content .el-select{
+    width: 35%;
+    margin-right: 5%;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .right .daxiaodeng .el-form-item__content .el-select .el-input{
+    width: 100%;
+}
+.app-main .newly .sxhuiyuan_tk .fenzuoyou .right .daxiaodeng .el-form-item__content .el-input{
+    width: 60%;
+}
+
+.app-main .newly .sxhuiyuan_tk .dialog-footer{
+    text-align: center;
+}
+.app-main .newly .sxhuiyuan_tk .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}
+.app-main .newly .sxhuiyuan_tk .el-dialog__body{
+    margin-bottom: 50px;
+}

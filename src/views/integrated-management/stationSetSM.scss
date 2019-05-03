@@ -1,0 +1,67 @@
+.warp{
+    background-color: #F6F7FB;
+    // padding: 2%;
+      color: #606266;
+  }
+  .main{
+    min-height: calc(100vh - 214px);
+    width: 100%;
+    height: 100%;
+    
+  }
+  .warp>.header{
+    background-color: #fff;
+    height: 60px;
+    padding-left: 1%;
+  }   
+  .header h3{
+    line-height: 60px;
+    margin: 0;
+  }
+  .oil-top{
+      display: flex;
+  }
+  .oils{
+    padding: 20px 20px;
+    border-top: 1px solid rgb(226, 219, 219);
+    width: 100%;
+  }
+  .oil-top  span {
+      display: inline-block;
+      width: 3px;
+      height: 25px;
+      vertical-align: middle;
+      background-color: #5b8dff;
+      margin-right: 5px;
+      margin-top: 5px;
+  }
+  .oils-box{
+      margin-top: 20px;
+  }
+  .oils-box .up{
+      margin-right: 20px;
+  }
+  .up .button{
+      margin-left: 20px;
+      margin-top: 25px;
+  }
+  .oils-legal{
+      display: flex;
+      width: 80%;
+      flex-flow: wrap;
+      margin-top:30px;
+  }
+  .oils-legal{
+      width: 100%;
+  }
+  .oils-legal .boxs{
+    //   width: 30%;
+      margin: 10px;
+  }
+  .oils-section{
+      display: flex;
+      width:100%;
+  }
+  .oils-section .left{
+      width: 50%;
+  }

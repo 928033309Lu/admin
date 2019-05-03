@@ -1,0 +1,172 @@
+    .supplier .el-dialog{
+        width: 70%;
+    }
+    .el-table thead{
+        line-height: 40px;
+        color:#626467;
+    }
+    .supplier .upload-demo{
+        width: 70%;
+    }
+    .supplier .el-upload{
+        width: 100%;
+    }
+    .supplier .el-upload-dragger{
+        width: 100%;
+    }
+    .supplier .el-dialog__headerbtn .el-dialog__close{
+        color: #fff;
+        font-size: 20px;
+    }
+    .supplier .el-dialog__body .el-input__inner{
+        background-color: #f5f9fc;
+    }
+    .supplier .el-dialog__body .el-textarea__inner{
+        background-color: #f5f9fc;
+    }
+    .supplier .small-padding .cell {
+        display: flex;
+//      justify-content: space-between;
+    }
+    
+    
+    .supplier .el-dialog__body .el-upload-dragger{
+       height: 160px;
+    }
+    .supplier .el-dialog__body .el-upload-dragger .el-icon-upload{
+       margin-top: 30px;
+    }
+   
+   
+    .supplier .el-dialog .up_title{
+        height: 80px;
+        color: #089d95;
+        width: 100%;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 80px;
+        text-align: center;
+    }
+   
+    .supplier .app-main .seachs{
+        padding: 0px 0 20px 40px;
+    }
+    .supplier .el-dialog__header{
+        text-align: center;
+        background-color: #307aff;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 0;
+        padding: 20px;
+    }
+    .supplier .el-dialog__header .el-dialog__title{
+        color: #fff;
+    }
+    .supplier .el-dialog .el-form{
+        width: 100%;
+    }
+    .supplier .el-dialog .el-form .up{
+        width: 100%;
+        display: flex;
+    }
+    .supplier .el-form-item__label{
+        padding-right: 25px;
+    }
+    .supplier .el-dialog .el-form .up .el-input{
+        width: 70%;
+    }
+    .supplier .el-dialog .el-form .left{
+        width: 50%;
+    }
+    .supplier .el-dialog .el-form .right{
+        width: 50%;
+    }
+    
+    .supplier .el-dialog .el-textarea{
+        width: 70%;
+    }
+    
+    
+    .supplier .top .el-button{
+        float: right;
+        margin-left: auto;
+    }
+    
+    .supplier .top .el-button+.el-button{
+        margin-left: 10px;
+    }
+    .supplier .top .el-button--medium{
+        padding: 10px 15px;
+    }
+    .supplier .dialog-footer{
+        text-align: center;
+    }
+    .supplier .dialog-footer .el-button{
+        padding: 15px 40px;
+    }
+    .supplier .el-dialog .el-button+.el-button{
+        margin-left: 100px;
+    }
+    
+    .supplier .el-dialog__body{
+        padding: 30px 30px;
+    }
+    
+    .supplier .el-icon-upload:before{
+        font-size: 40px;
+    }
+    .supplier .el-upload-dragger .el-upload__text{
+        font-size: 13px;
+    }
+
+
+
+    .supplier .oilTianjia .el-form-item.is-required .el-form-item__label:before{
+        display: none;
+    }
+    .supplier .el-form-item.is-required .el-form-item__label:before{
+        display: none;
+    }
+    
+    .app-main .supplier .el-form .top{
+        border-bottom: 1px solid #E4E4E4;
+    }
+    .supplier .list{
+        width: 100%;
+    }
+    .supplier .list .el-table__header-wrapper .has-gutter th.is-leaf{
+        height: 60px;
+        background-color: #F5F9FC;
+    }
+    
+    .supplier .list .el-table__body tr:nth-of-type(odd){
+        background-color: #fff;
+    }
+    .supplier .list .el-table__body tr:nth-of-type(even){
+        background-color: #f5f9fc;
+    }
+    
+    .supplier .oilTianjia .avatar-uploader .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        width: 230px;
+    }
+    .supplier .oilTianjia .avatar-uploader .el-upload:hover {
+        border-color: #409EFF;
+    }
+    .supplier .oilTianjia .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+    }
+    .supplier .oilTianjia .avatar {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }

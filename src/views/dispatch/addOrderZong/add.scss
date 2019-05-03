@@ -1,0 +1,99 @@
+/*shenqingtj_tab弹框*/
+.shangpinAdd .el-dialog{
+    width: 80%;
+}
+.shangpinAdd .sou{
+    display: flex;
+    justify-content: space-between;
+}
+.shangpinAdd .el-dialog__body{
+    padding: 30px;
+}
+.shangpinAdd .sou .el-form-item{
+    width: 50%;
+}
+.shangpinAdd .sou .you{
+    display: flex;
+    height: 36px;
+}
+.shangpinAdd .sou .you .el-button--medium{
+    margin-left: 20px;
+}
+
+.shangpinAdd .el-table{
+    border: 1px solid #e6e9ee;
+}
+
+.shangpinAdd .tianjiade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shangpinAdd .tianjiade .xuan{
+    min-width: 600px;
+    border-right: 2px solid #e6e9ee;
+}
+.shangpinAdd .tianjiade .xuanle{
+    max-width: 300px;
+    min-width: 300px;
+    min-height: auto;
+    max-height: 497px;
+    overflow-y: scroll;
+    border: 1px solid #e6e9ee;
+    border-left: 2px solid #e6e9ee;
+    
+}
+.shangpinAdd .tianjiade .xuanle .yixuan{
+    height: 44px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    
+    border-bottom: 1px solid #ebeef5;
+}
+.shangpinAdd .tianjiade .xuanle ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shangpinAdd .tianjiade .xuanle ul li{
+    display: flex;
+    width: 50%;
+    height: 43.8px;
+    line-height: 43.8px;
+    padding: 0 5px;
+}
+.shangpinAdd .tianjiade .xuanle ul li .ming{
+    width: 70%;
+    text-align: center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.shangpinAdd .tianjiade .xuanle ul li .cha{
+    width: 30%;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+.shangpinAdd .el-table__header .has-gutter .is-leaf{
+        background-color: #F5F9FC;
+    }
+.shangpinAdd .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.shangpinAdd .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+
+.shangpinAdd .dialog-footer{
+    text-align: center;
+}
+.shangpinAdd .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}

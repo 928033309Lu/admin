@@ -1,0 +1,165 @@
+.app-main{
+	background-color: #f6f7fb;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.app-main ul,li{list-style: none}
+.app-main .app-container{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 20px 0;
+}
+.app-main .app-container .el-form{
+	width: 100%;
+}
+/*.el-popper[x-placement^=bottom] .popper__arrow{
+	left: 50% !important;
+}*/
+.app-main .app-container .el-form .top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	position: relative;
+	padding: 0 40px;
+	padding-bottom: 20px;
+}
+.el-form-item{
+	margin: 0;
+}
+.app-main .app-container .el-form .top .el-form-item__content{
+	width: 400px;
+}
+
+.app-main .app-container .el-form .top .el-form-item{
+	width: 500px;
+}
+.app-main .app-container .el-form .top .el-form-item::before{
+	width: 3px;
+    height: 18px;
+    background-color: #2c7bfe;
+    position: absolute;
+    top: 9px;
+    left: 40px;
+}
+.app-main .app-container .top .el-form-item__label{
+	font-size: 18px;
+}
+
+.fixed-width .el-button--mini{
+	padding: 7px 5px;
+}
+.small-padding .cell{
+	display: flex;
+}
+.el-table .cell{
+	padding: 0 7px;
+}
+/*.el-table__body{
+	width: 100% !important;
+}
+.el-table__body tr{
+	padding: 0 40px;
+}
+.el-table__header-wrapper .el-table__header{
+	width: 100% !important;
+}*/
+.el-table .el-table__body tr:nth-of-type(odd){
+	background-color: #f5f9fc !important;
+}
+.el-table__header th{
+	padding: 15px 0;
+}
+.el-input__suffix-inner{
+	font-size: 16px;
+	color: #2c79fd;
+	cursor: pointer;
+}
+.el-dialog{border-radius: 5px;}
+.el-dialog .el-dialog__header{
+	padding: 15px 0;
+	line-height: 40px;
+	background-color: #fff !important;
+	text-align: center;
+	font-size: 24px;
+	color: #666;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #ededed;
+	border-radius: 5px 5px 0 0;
+}
+.el-dialog .el-dialog__header span.el-dialog__title{
+	padding-left: 36px;
+	font-size: 20px;
+	color: #666;display: block;line-height: 40px;
+	position: relative;left: -4px;border-left: 8px solid #7299ff;
+}
+.el-dialog .el-dialog__headerbtn{
+	top: 20px;
+}
+.el-dialog .el-dialog__headerbtn .el-dialog__close{
+	font-size: 30px;
+	color: #666;
+}
+
+
+
+/* 右侧通用样式 */
+.publicWarp{padding: 0px !important;overflow: hidden;}
+.publicHead{padding: 20px 0;overflow: hidden;padding-left: 0 !important;border:0 !important;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);position: relative;z-index: 1;}
+.publicHead h3{float: left;margin: 0;border-left: 3px solid #5a8cff;margin-left: 40px !important;height: 20px;line-height: 20px !important;padding-left: 10px;color: #545c71;font-size: 18px;}
+.contentTitle{padding: 20px 0;overflow: hidden;}
+.contentTitle h3{float: left;font-weight: 600;margin: 0;border-left: 2px solid #5a8cff;margin-left: 40px !important;height: 18px;line-height: 18px !important;padding-left: 10px;color: #545c71;font-size: 16px;font-weight: 500;}
+.contentHead{padding: 20px 0;overflow: hidden;padding-left: 0 !important;border-bottom:1px solid #ededed !important;position: relative;z-index: 1;}
+.contentHead h3{float: left;margin: 0;margin-left: 20px !important;height: 20px;line-height: 20px !important;padding-left: 10px;color: #545c71;font-size: 18px;}
+.contentHead h3 button{width: 30px;height: 30px;line-height: 30px;text-align: center;padding: 0 !important;position: relative;float: left;margin-top: -3px;}
+.contentHead h3 button i{font-size: 20px;position: relative;bottom: -2px;}
+
+.publicMain{}
+.publicScreen{padding-bottom: 10px;padding-top: 30px;padding-right: 40px;}
+.publicScreen .el-form-item__label{font-weight: 400;}
+.publicScreen .el-select{width: 100%;max-width: 200px;}
+.publicScreen .el-input{width: 100%;max-width: 200px;}
+.publicScreen .el-range-editor.el-input__inner{width: 100%;max-width: 200px;}
+.publicTable{padding:0 !important;padding-bottom: 1px !important;position: relative;}
+.publicTable .table{border:0 !important;}
+.thColorDark .el-table__header-wrapper th{background: #f5f9fc;}
+.thColorDark .el-table .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc !important;
+}
+.thColorDark .el-table .el-table__body tr:nth-of-type(odd){
+    background-color: #fff !important;
+}
+.thColorLight .el-table__header-wrapper th{background: #fff;}
+.thColorLight .el-table .el-table__body tr:nth-of-type(even){
+    background-color: #fff !important;
+}
+.thColorLight .el-table .el-table__body tr:nth-of-type(odd){
+    background-color: #f5f9fc !important;
+}
+.publicTable .el-table__header-wrapper th{line-height: 40px;}
+.publicTable .el-table__header-wrapper th:first-child{padding-left: 30px;}
+.publicTable .el-table__header-wrapper th:last-child{padding-right: 30px;}
+.publicTable .el-table__row td:first-child{padding-left: 30px;}
+.publicTable .el-table__row td:last-child{padding-right: 30px;}
+
+.publicDialog .top{padding: 0 !important;}
+.publicDialog .top .block{margin-bottom: 28px !important;margin-top: 0 !important;}
+
+.publicMain .pagination-container{margin-top: 0;}
+
+.publicTable>.plusBtn{position: absolute;right: 36px;top: 20px;z-index: 1;}
+.publicTable>.plusBtn i{color: #5d8cfe;font-weight: 900;font-size: 22px;}
+
+.publicMain .el-form-item__label{padding-right: 20px;}
+
+
+
+
+
+
+
+
+
+
+

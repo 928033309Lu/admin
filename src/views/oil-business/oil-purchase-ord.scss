@@ -1,0 +1,132 @@
+.app-main .oil-purchase-ord .el-form .upzs{
+    padding-bottom: 0;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: flex-start;
+}
+.app-main .oil-purchase-ord .shangForm .top{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+.oil-purchase-ord .el-form .top .el-form-item::before{
+    display: none;
+}
+.app-main .oil-purchase-ord .el-form .qufen .el-form-item::before{
+    display: block;
+    top: 20px;
+}
+
+.oil-purchase-ord .top .el-icon-arrow-left{
+    padding-top: 7px;
+}
+.oil-purchase-ord .top .el-icon-arrow-left:before{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.oil-purchase-ord .mian_ord{
+    padding: 0 40px;
+}
+.oil-purchase-ord .mian_ord .shang{
+    padding: 10px 0;
+    display: flex;
+    
+}
+.oil-purchase-ord .el-form .top .el-form-item{
+    margin-bottom: 0;
+}
+
+.oil-purchase-ord .top .el-form-item__label{
+    padding-left: 10px;
+}
+
+.oil-purchase-ord .foot-btn{
+    text-align: center;
+    padding: 20px 0;
+}
+.oil-purchase-ord .foot-btn .el-button+.el-button{
+    margin-left: 80px;
+}
+
+
+.oil-purchase-ord .el-form-item__label{
+    padding: 0;
+}
+.oil-purchase-ord .mian_ord .shang .el-form-item__content{
+    color: #7D7D7F;
+}
+.oil-purchase-ord .el-form-item{
+    margin-bottom: 0;
+}
+.oil-purchase-ord .mian_ord .xinxi{
+    width: 100%;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li{
+    width: 48%;
+    margin-bottom: 30px;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #606266;
+    padding-bottom: 15px;
+    position: relative;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .title .xiangq{
+    width: 80px;
+    height: 30px;
+    background-color: #5b8dff;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    left: 110px;
+    cursor: pointer;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .neirong{
+    border: 1px solid #e4e8f4;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .neirong .limiande{
+    padding: 0;
+    margin: 0;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .neirong .limiande>li{
+    display: flex;
+    justify-content: flex-start;    
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #7D7D7F;
+    padding: 0 20px;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .neirong .limiande>li:nth-of-type(odd){
+    background-color: #f5f9fc;
+}
+.oil-purchase-ord .mian_ord .xinxi .dade>li .neirong .limiande>li>div{
+    width: 50%;
+    min-height: 40px;
+    line-height: 40px;
+}
+.oil-purchase-ord .buzhou .el-step__description{
+    white-space: pre;
+}
+.oil-purchase-ord .buzhou .title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #606266;
+    line-height: 60px;
+    height: 60px;
+    position: relative;
+}

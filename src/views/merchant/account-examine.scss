@@ -1,0 +1,93 @@
+.warp{
+  background-color: #F6F7FB;
+//   padding: 2%;
+}
+.main{
+  min-height: calc(100vh - 181px);
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  color: #606266;
+}
+.header{
+  background-color: #fff;
+  border-bottom: 1px solid #EDEDED;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #F6F7FB;
+}   
+.header h3{
+  line-height: 60px;
+  margin: 0;
+}
+.el-icon-plus{
+    cursor:pointer;
+}
+.el-input{
+  width: 360px;
+}
+.dialog-footer{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+.el-button+.el-button{
+  margin-left: 200px;
+}
+.up{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.el-input--medium .el-input__inner,
+.el-textarea__inner,
+.el-input__inner,
+.el-table--striped .el-table__body tr.el-table__row--striped td ,
+.el-table th{
+  background-color: #F5F9FC;
+}
+h3 .el-button--medium.is-circle{
+  border: 0;
+}
+.block .el-popover{
+    width: 200px;
+    top: -250px;
+    height: 250px;
+    overflow: auto;
+}
+.block .el-popover .el-checkbox{
+    margin-left: 30px;
+}
+.block .tag .el-input--medium .el-input__inner{
+    height: 24px;
+}
+.avatar-uploader{
+    position: relative;
+}
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+.avatar {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+

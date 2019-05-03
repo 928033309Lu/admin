@@ -1,0 +1,95 @@
+.app-main .inquiry .el-form .top .el-form-item{
+    width: 400px;
+}
+.app-main .inquiry .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.app-main .inquiry .items .kucun .el-form-item__content{
+    display: flex;
+}
+.app-main .inquiry .items .el-form-item{
+    margin-bottom: 15px;
+    width: 290px;
+}
+.app-main .inquiry .el-form .items .el-button{
+    float: right;
+    margin-left: auto;
+}
+.app-main .inquiry .dbriqi{
+    display: flex;
+    padding: 20px 60px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #606266;
+    font-weight: bold;
+}
+.app-main .inquiry .dbriqi .qiri{
+    margin-right: 20px; 
+}
+.app-main .inquiry .dbriqi .qiris{
+    margin-right: 20px; 
+}
+.app-main .inquiry .dbriqi .qiris:hover{
+    color: #307AFF;
+    cursor: pointer;
+}
+
+.app-main .inquiry .el-date-editor .el-range-separator{
+    padding: 0;
+}
+
+.app-main .inquiry .sangpinList{
+    border: 1px solid #e6e9ee;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: none;
+}
+.app-main .inquiry .sangpinList .el-table__header .has-gutter .is-leaf{
+    background-color: #F5F9FC;
+}
+.app-main .inquiry .sangpinList .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .inquiry .sangpinList .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+
+
+
+
+
+.app-main .inquiry .caigousq_tab .shanga{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.app-main .inquiry .caigousq_tab .shanga .el-form-item{
+    min-width: 34%;
+    margin-bottom: 10px;
+}
+.app-main .inquiry .caigousq_tab .el-dialog__body{
+    padding: 30px;
+}
+.app-main .inquiry .caigousq_tab .dialog-footer{
+    text-align: center;
+}
+
+
+.app-main .inquiry .shanghuxiangqingtab{
+    border: 1px solid #e6e9ee;
+    border-bottom: 0;
+    margin-bottom: 25px;
+}
+.app-main .inquiry .shanghuxiangqingtab .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .inquiry .shanghuxiangqingtab .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+.kucunSe{
+    display: flex
+}

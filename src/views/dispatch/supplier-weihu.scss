@@ -1,0 +1,133 @@
+.app-main .supplier-weihu .el-form .upzs{
+    padding-bottom: 0;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: flex-start;
+}
+.app-main .supplier-weihu .shangForm .top{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+.supplier-weihu .el-form .top .el-form-item::before{
+    display: none;
+}
+.app-main .supplier-weihu .el-form .qufen .el-form-item::before{
+    display: block;
+    top: 20px;
+}
+
+.supplier-weihu .top .el-icon-arrow-left{
+    padding-top: 6px;
+}
+.supplier-weihu .top .el-icon-arrow-left:before{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.supplierForm .el-dialog .el-dialog__footer{
+    text-align: center;
+}
+.supplierForm .el-dialog .el-dialog__footer .el-button+.el-button{
+    margin-left: 100px;
+}
+
+
+
+.supplier-weihu .up{
+    display: flex;
+    width: 100%;
+    padding: 0 40px;
+}
+.supplier-weihu .up .left{
+    width: 50%;
+}
+.supplier-weihu .up .right{
+    width: 50%;
+}
+.supplier-weihu .el-form-item{
+    margin: 15px 0;
+}
+
+.supplier-weihu .upzs .el-form-item{
+    margin: 0;
+}
+
+.supplier-weihu .top .el-icon-arrow-left{
+    padding-top: 6px;
+}
+.supplier-weihu .top .el-icon-arrow-left:before{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.supplier-weihu .shangForm .up .el-form-item__content{
+    width: 50%;
+}
+.supplier-weihu .shangForm .up .pic .el-form-item__content{
+    width: 50%;
+}
+.supplier-weihu .shangForm .up .el-icon-upload:before{
+    font-size: 40px;
+}
+
+.supplier-weihu .shangForm .up .el-form-item__content .el-input__inner{
+    background-color: #f5f9fc;
+}
+.app-main .supplier-weihu .qufenx .el-form-item__label{
+    margin-left: 20px;
+}
+.app-main .supplier-weihu .upload-demo{
+    width: 100%;
+}
+.app-main .supplier-weihu .el-upload{
+    width: 100%;
+}
+.app-main .supplier-weihu .el-upload-dragger{
+    width: 100%;
+    height: 160px;
+}
+.app-main .supplier-weihu .el-upload-dragger .el-icon-upload{
+    margin-top: 30px;
+}
+
+
+.supplier-weihu .shangForm .de{
+    margin-bottom: 65px;
+}
+
+
+.supplier-weihu .weihu{
+    width: 100%;
+    padding: 0 40px;
+}
+
+.supplier-weihu .pagination-container{
+    margin-top: 0;
+}
+.supplier-weihu .weihu .el-form-item{
+    position: relative;
+}
+.supplier-weihu .weihu .el-form-item .el-icon-plus{
+    position: absolute;
+    top: 23px;
+    right: 2%;
+}
+.supplier-weihu .weihu .el-form-item .el-icon-plus:before{
+    font-size: 18px;
+    color: #307aff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.supplier-weihu .foot-btn{
+    text-align: center;
+    padding: 20px 0;
+}
+.supplier-weihu .foot-btn .el-button+.el-button{
+    margin-left: 80px;
+}

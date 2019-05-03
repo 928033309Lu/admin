@@ -1,0 +1,122 @@
+
+.app-main{
+	background-color: #f6f7fb;
+	padding: 25px 40px ;
+	box-sizing: border-box;
+}
+.app-main .app-container{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 20px 0;
+}
+.app-main .app-container .el-form{
+	width: 100%;
+}
+.app-main .app-container .el-form .top{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	position: relative;
+	padding: 0 40px;
+}
+
+.app-main .app-container .el-form .yggl .el-form-item__label{
+    width: 100px !important;
+    margin-left: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+.app-main .app-container .el-form .top .items{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.el-form-item{
+	margin: 0;
+}
+.app-main .app-container .el-form .top .el-form-item__content{
+	min-width: 200px;
+}
+
+.app-main .app-container .el-form .top .el-form-item{
+	min-width: 300px;
+	margin-bottom: 20px;
+}
+.app-main .app-container .el-form .top .el-form-item::before{
+	width: 3px;
+    height: 16px;
+    background-color: #2c7bfe;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+
+.small-padding .cell{
+	display: flex;
+	
+}
+.el-table th>.cell{
+	color: #606266;
+}
+.el-table .cell{
+	color: #acb0cb;
+}
+/*按钮大小*/
+.fixed-width .el-button--mini{
+	width: 58px;
+}
+.fixed-width .el-button--mini{
+	padding: 6px 4px;
+}
+
+/*.el-table__body{
+	width: 100% !important;
+}
+.el-table__body tr{
+	padding: 0 40px;
+}
+.el-table__header-wrapper .el-table__header{
+	width: 100% !important;
+}*/
+.el-table__body tr:nth-of-type(odd){
+	background-color: #f6f7fb;
+}
+.el-table__header th{
+	padding: 15px 0;
+}
+.el-input__suffix-inner{
+	font-size: 16px;
+	color: #2c79fd;
+	cursor: pointer;
+}
+
+
+/*岗位员工添加按钮*/
+.btns1{
+	float: right;
+    margin-left: auto;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
+.el-button--medium{
+	padding: 8px 18px;
+}
+
+
+/*岗位管理弹框样式*/
+
+.el-dialog__header{
+	padding: 20px 20px 20px;
+	background-color: #eaf2ff;
+}
+.el-dialog__title{
+	padding-left: 10px;
+    border-left: 2px solid #307aff;
+}
+
+.gwgl_tab .el-form{
+	width: 100%;
+    margin-left: 0; 
+}
+    

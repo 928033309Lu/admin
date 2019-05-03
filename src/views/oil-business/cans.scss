@@ -1,0 +1,74 @@
+    .app-main .cans .el-form .top .el-form-item{
+        width: 400px;
+    }
+    .app-main .cans .items{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+    .app-main .cans .items .el-form-item{
+        margin-bottom: 0;
+    }
+    .app-main .cans .el-form .items .el-button{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .cans .dbriqi{
+        display: flex;
+        padding: 20px 60px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #606266;
+        font-weight: bold;
+    }
+    .app-main .cans .dbriqi .chuangjian{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .cans .dbriqi .qiri{
+        margin-right: 20px; 
+    }
+    .app-main .cans .dbriqi .diao_btn{
+        float: right;
+        margin-left: auto;
+    }
+    .app-main .cans .dbriqi .qiris{
+        margin-right: 20px; 
+    }
+    .app-main .cans .dbriqi .qiris:hover{
+        color: #307AFF;
+        cursor: pointer;
+    }
+    .app-main .cans .el-date-editor .el-range-separator{
+        padding: 0;
+    }
+    .app-main .cans .el-table .small-padding .cell{
+        text-align: center;
+    }
+    .app-main .cans .el-table .fixed-width .el-button--mini{
+        margin: 0 auto;
+    }
+    .app-main .cans .daoguan_tab .el-dialog__body{
+        padding: 30px 20px;
+    }
+    .app-main .cans .daoguan_tab .zouyou{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .app-main .cans .daoguan_tab .zouyou .el-form-item{
+        width: 50%;
+    }
+    
+    .app-main .cans .daoguan_tab .el-form-item{
+        margin-bottom: 10px;
+    }
+    
+    .app-main .cans .daoguan_tab .dialog-footer{
+        text-align: center;
+    }
+    .app-main .cans .daoguan_tab .dialog-footer .el-button+.el-button{
+        margin-left: 50px;
+    }

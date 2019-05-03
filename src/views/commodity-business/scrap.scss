@@ -1,0 +1,164 @@
+.app-main .scrap{
+    
+}
+.app-main .scrap .items{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 0 35px;
+}
+.app-main .scrap .tui_btn{
+    float: right;
+    margin: 20px 40px;
+}
+.app-main .scrap .items .el-form-item{
+    margin-bottom: 0;
+}
+
+
+
+/*shenqing_tab弹框*/
+.app-main .scrap .shenqing_tab .el-dialog{
+    width: 70%;
+}
+.app-main .scrap .shenqing_tab .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .scrap .shenqing_tab .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+.app-main .scrap .shenqing_tab .el-dialog__footer .dialog-footer{
+    text-align: center;
+}
+.app-main .scrap .shenqing_tab .el-dialog__footer .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}
+
+.app-main .scrap .shenqing_tab .heji{
+    display: flex;
+    padding: 20px 15px;
+    justify-content: space-between;
+    background-color: #f5f9fc;
+    border: 1px solid #e4e8f4;
+    border-top: 0;
+}
+.app-main .scrap .shenqing_tab .heji button{
+    width: 60px;
+    padding: 7px 5px;
+}
+.app-main .scrap .shenqing_tab .el-table{
+    border: 1px solid #e4e8f4;
+}
+.app-main .scrap .shenqing_tab .el-dialog__body .el-table__header .has-gutter .is-center{
+    background-color: #F5F9FC !important;
+}
+.app-main .scrap .shenqing_tab .yuanyin{
+    padding-top: 20px;
+}
+.app-main .scrap .shenqing_tab .yuanyin .el-textarea{
+    width: 60%;
+}
+
+.app-main .scrap .shenqingtj_tab .el-dialog{
+    width: 80%;
+}
+
+.app-main .scrap .shenqingtj_tab .el-dialog__body .el-table__header .has-gutter .is-leaf{
+        background-color: #F5F9FC;
+    }
+.app-main .scrap .shenqingtj_tab .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .scrap .shenqingtj_tab .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+
+
+//caigousq_tab弹框
+.app-main .scrap .caigousq_tab .el-dialog{
+    width: 70%;
+    
+}
+.app-main .scrap .caigousq_tab .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .scrap .caigousq_tab .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+.app-main .scrap .caigousq_tab .el-dialog__footer .dialog-footer{
+    text-align: center;
+}
+.app-main .scrap .caigousq_tab .el-dialog__footer .dialog-footer .el-button+.el-button{
+    margin-left: 100px;
+}
+
+.app-main .scrap .caigousq_tab .heji{
+    display: flex;
+    padding: 20px 0;
+    justify-content: flex-start;
+}
+.app-main .scrap .caigousq_tab .heji button{
+    width: 60px;
+    padding: 7px 5px;
+}
+.app-main .scrap .caigousq_tab .el-table{
+    border: 1px solid #e4e8f4;
+}
+.app-main .scrap .caigousq_tab .heji .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .scrap .caigousq_tab .heji .shul{
+    padding-top: 10px;
+    display: flex;
+    margin-right: 50px;
+}
+.app-main .scrap .caigousq_tab .heji .beizhu{
+    display: flex;
+}
+.app-main .scrap .caigousq_tab .heji .beizhu .el-form-item__label{
+    padding-top: 10px;
+}
+.app-main .scrap .caigousq_tab .heji .el-input__inner{
+    background-color: #f5f9fc;
+}
+.app-main .scrap .caigousq_tab .el-dialog{
+    width: 60%;
+}
+.app-main .scrap .caigousq_tab .el-form{
+    position: relative;
+}
+.app-main .scrap .caigousq_tab .el-form .jujue{
+    width: 63px;
+    height: 40px;
+    line-height: 40px;
+    color: #909399;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    right: 1px;
+    z-index: 100;
+    background-color: #f5f9fc;
+}
+.app-main .scrap .caigousq_tab .el-dialog__body .el-table__header .has-gutter .is-center{
+    background-color: #F5F9FC !important;
+}
+.app-main .scrap .caigousq_tab .el-dialog__body{
+    padding: 30px;
+}
+
+
+.app-main .scrap .caigousq_tab .shanga{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.app-main .scrap .caigousq_tab .shanga .el-form-item{
+    min-width: 50%;
+}
+
+.app-main .scrap .caigoudb_tab .yuanyin{
+    line-height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,111 @@
+.app-main .new_member .el-form .upzs{
+    padding-bottom: 0;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    justify-content: flex-start;
+}
+.app-main .new_member .shangForm .upzs{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+.app-main .new_member .shangForm .upzs .el-icon-arrow-left{
+    font-size: 19px;
+}
+.app-main .new_member .shangForm .upzs .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .new_member .shangForm .upzs a{
+    padding-top: 9px;
+}
+.app-main .new_member .shangForm .upzs .el-form-item__label{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.app-main .new_member .el-form .top{
+    padding: 0 30px;
+}
+.app-main .new_member .el-form .top .el-form-item{
+    margin-bottom: 0;
+}
+.app-main .new_member .el-form .top .el-form-item__label{
+    padding-left: 28px;
+    font-size: 15px;
+}
+.app-main .new_member .dangan{
+    padding:20px 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #E4E4E4;
+}
+.app-main .new_member .dangan .el-form-item{
+    width: 33%;
+}
+.app-main .new_member .dangan .el-form-item .el-form-item__label{
+    padding: 0;
+}
+.app-main .new_member .dangan .el-form-item__content{
+    width: 210px;
+}
+.app-main .new_member .el-form .top .el-form-item::before{
+    left: 35px;
+}
+.app-main .new_member .guize{
+    padding: 0 30px;
+    padding-top: 20px;  
+    display: flex;
+}
+.app-main .new_member .guize .left{
+    width: 40%;
+}
+.app-main .new_member .guize .left .kuangk{
+    width: 100%;
+    height: auto;
+    min-height: 170px;
+    border: 1px solid #e6e9ee;
+    border-radius: 6px;
+}
+.app-main .new_member .guize .left .shangxia{
+    display: flex;
+    flex-flow: column;
+}
+.app-main .new_member .guize .left .shangxia .el-form-item__content{
+    margin-left: 0 !important;
+}
+
+
+
+.app-main .new_member .guize .right .shangxia{
+    display: flex;
+    flex-flow: column;
+}
+.app-main .new_member .guize .right .shangxia .el-form-item__content{
+    margin-left: 0 !important;
+}
+.app-main .new_member .guize .right .kuangk{
+    width: 100%;
+    height: auto;
+    min-height: 170px;
+    border: 1px solid #e6e9ee;
+    border-radius: 6px;
+}
+.app-main .new_member .guize .right{
+    width: 40%;
+    margin-left: 10%;
+}
+.app-main .new_member .footer{
+    text-align: center;
+}
+.app-main .new_member .guize .right .yueding{
+    
+}
+.app-main .new_member .guize .right .yueding .el-input{
+    width: 85px;
+}
+.app-main .new_member .guize .right .yueding .el-input .el-input__inner{
+    background-color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+}

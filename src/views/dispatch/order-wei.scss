@@ -1,0 +1,82 @@
+.app-main .order-wei .el-form .upzs{
+    padding-bottom: 0;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: flex-start;
+}
+.app-main .order-wei .shangForm .top{
+    display: flex;
+    justify-content: flex-start;
+}
+.app-main .order-wei .shangForm .top .el-form-item{
+    margin-bottom: 15px;
+}
+.order-wei .el-form .top .el-form-item::before{
+    display: none;
+}
+.app-main .order-wei .el-form .qufen .el-form-item::before{
+    display: block;
+    top: 20px;
+}
+
+.order-wei .top .el-icon-arrow-left{
+    padding-top: 6px;
+}
+.order-wei .top .el-icon-arrow-left:before{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.app-main .order-wei .danhao{
+    padding: 20px 40px;
+    display: flex;
+    border-bottom: 1px solid #EEEEEE;
+}
+.app-main .order-wei .danhao .el-form-item{
+    width: 30%;
+    margin-bottom: 0;
+}
+.app-main .order-wei .xinxi{
+    padding: 8px 40px;
+}
+
+.app-main .order-wei .xinxi .el-form-item{
+    margin-bottom: 15px;
+}
+.app-main .order-wei .xinxi ul{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E4E4E4;
+    
+}
+.app-main .order-wei .xinxi ul>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.app-main .order-wei .xinxi ul li{
+    width: 50%;
+    line-height: 40px;
+    height: 40px;
+    font-size: 13px;
+    padding: 0 20px;
+}
+.app-main .order-wei .xinxi ul .beijing{
+    background-color: #f5f9fc;
+}
+.app-main .order-wei .xinxi .el-form-item{
+    margin: 0;
+    padding-top: 3px;
+}
+.app-main .order-wei .xinxi .el-form-item .el-form-item__label{
+    font-size: 13px;
+    font-weight: normal;
+    color: #000;
+    padding: 0;
+}
+.app-main .order-wei .xinxi .tou .el-form-item__label{
+    font-weight: bold;
+}
+.app-main .order-wei .xinxi .el-form-item .el-input--medium .el-input__inner{
+    height: 30px;
+}

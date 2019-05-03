@@ -1,0 +1,228 @@
+.app-main .member_query .el-form .top{
+    border-bottom: 1px solid #E4E4E4;
+}
+.app-main .member_query .el-form .top .el-form-item{
+    width: 400px;
+}
+.app-main .member_query .shus{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 40px 20px;
+    box-sizing: content-box;
+    position: relative;
+}
+.app-main .member_query .shus .xian{
+    border: 1px solid #e4e8f4;
+    position: relative;
+}
+.app-main .member_query .shus .tongji{
+    width: 39%;
+    display: flex;
+    justify-content: space-around;
+}
+.app-main .member_query .shus .tongji .gong{
+    width: 20%;
+    padding: 40px 0;
+}
+.app-main .member_query .shus .tongji .gong .zhong{
+    width: 180px;
+    display: flex;
+    margin: 0 auto;
+}
+.app-main .member_query .shus .tongji .gong .icon{
+    width: 37px;
+    height: 30px;
+}
+.app-main .member_query .shus .tongji .gong .icon img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.app-main .member_query .shus .tongji .gong p{
+    margin: 0;
+    line-height: 30px;
+    height: 30px;
+}
+.app-main .member_query .shus .tongji .gong .xinxi{
+    margin-left: 10px;
+    width: 125px;
+}
+.app-main .member_query .shus .huiyuana .gong .xinxi .shu{
+    font-size: 31px;
+    color: #409EFF;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.app-main .member_query .shus .huiyuana .gong .xinxi .zi{
+    font-size: 16px;
+    color: #409EFF;
+}
+
+.app-main .member_query .shus .xians{
+    background-color: #e4e8f4;
+    width: 1px;
+    height: 100px;
+    margin-top: 25px;
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    // margin: auto;
+}
+.app-main .member_query .shus .huiyuana{
+    width: 100%;
+}
+.app-main .member_query .shus .huiyuana .xians{
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // left: 22.3%;
+    // right: auto;
+    // margin: auto;
+}
+.app-main .member_query .shus .huiyuana .xian11{
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // left: 49.3%;
+    // right: auto;
+    // margin: auto;
+}
+.app-main .member_query .shus .huiyuana .xian111{
+    // left: 76.6%;
+}
+.app-main .member_query .shus .huiyuana .gong .xinxi .shu{
+    color: #333333;
+}
+.app-main .member_query .shus .huiyuana .gong .xinxi .zi{
+    color: #333333;
+}
+.app-main .member_query .shus .huiyuana .no1 .xinxi .shu{
+    color: #409EFF;
+}
+.app-main .member_query .shus .huiyuana .no1 .xinxi .zi{
+    color: #409EFF;
+}
+
+.app-main .member_query .shus .tongji .gong .zhong1 .xinxi{
+    width: 150px;
+}
+.app-main .member_query .el-form .top2{
+    padding-bottom: 10px;
+}
+.app-main .member_query .biaogel .xiekuang{
+    padding-top: 10px;
+}
+
+.app-main .member_query .biaogel{
+    padding: 0 20px;
+}
+.app-main .member_query .biaogel .xiekuang{
+    border: 1px solid #e6e9ee;
+}
+.app-main .member_query .el-table__body tr:nth-of-type(odd){
+    background-color: #fff;
+}
+.app-main .member_query .el-table__body tr:nth-of-type(even){
+    background-color: #f5f9fc;
+}
+.el-pagination{
+    text-align: center;
+    margin: 20px 0;
+}
+.box{
+    margin-bottom: 20px;
+}
+.box .left,.box .right{
+    display: inline-block;
+}
+.box .left{
+    width: 100px;
+    text-align: left;
+    line-height: 36px;
+}
+.sai{
+	display: flex;
+	justify-content: space-between;
+}
+.sai .shu .block{
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.shu .left,.right{
+	display: inline-block;
+}
+.shu .block{
+	margin-bottom: 10px;
+}
+.shu .left{
+	width: 90px;
+	line-height: 36px;
+}
+.an{
+	text-align: right;
+}
+.el-input--medium .el-input__inner,
+.el-textarea__inner,
+.el-input__inner,
+.el-table--striped .el-table__body tr.el-table__row--striped td ,
+.el-table th{
+  background-color: #F5F9FC;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 33%;
+    padding-left: 7%;
+    box-sizing: border-box;
+}
+.an{
+    margin-left: 245px;
+}
+.huiyuanhao{
+  margin-left: -140px;
+}
+
+.anniu{
+    text-align: center;
+}
+.anniu .el-button+.el-button{
+    margin-left: 270px;
+}
+.anniu .el-button{
+    width: 100px;
+    height: 40px;
+}
+.biaoti{
+    color: #409EFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.qita .suoshuyouzhan,.biaoqian{
+    width: 270px;
+    border:1px solid #eee;
+    height: 320px;
+}
+.qita .box{
+    width: 50%;
+}
+.drop .el-button{
+    padding: 0;
+}
+.you{
+    text-align: right;
+}
+.biao{
+    padding: 10px 20px;
+}
+.table{
+    border:1px solid #ebeef5;
+    border-bottom: 0;
+}
+.btn{
+    text-align: center;
+}
